@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js Example with External Model</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"></div>
+        <span  class="logo">meesho</span>
+        <!-- <span class="menu"> -->
+            <span class="jagah">Download App</span>
+            <span class="jagah">Become a Supplier</span>
+            <span class="jagah">Newsroom</span>
+        <!-- </span> -->
+    </div>
+    <nav class="navigation">
+        <a >Women Ethnic</a>
+        <a >Women Western</a>
+        <a >Men</a>
+        <a >Kids</a>
+        <a >Home & Kitchen</a>
+        <a >Beauty & Health</a>
+        <a >Jewellery & Accessories</a>
+        <a >Bags & Footwear</a>
+        <a >Electronics</a>
+    </nav>
+    <div class="productheading">
+        <!-- <div></div> -->
+         <div class="FirstLine">
+            <div class="productname">Converse</div>
+            <div class="productname" style="font-size: 25px;">Available Sizes</div>
+         </div>
+         <div class="productdesc">Unisex Chuck Taylor All Star High Top Sneakers</div>
+         <div class="ratings">
+            <div class="starrating"> 4 ★</div>
+            <div class="ratingnumber"> 666 ratings</div>
+         </div>
+         <!-- <div>
+            Available sizes
+         </div> -->
+    </div>
+    <div class="whole">
+    <!-- <button id="toggle-button">Toggle View</button> -->
+    <div id="modelcontainer"  >
+        <!-- 3D Model will be inserted here -->
+        <!-- <img id="model-image" src="/assets/Screenshot 2024-09-19 215905.png"  /> -->
+    </div>
+    <div>
+        
+    <div style="display: flex; margin-left: 0px; height: 30px;" >
+    <div style="padding-right: 15px; padding-left: 15px; border-radius: 10px; padding-top: 5px; padding-bottom: 2px; background-color: #580a46; color: white;">IND-7</div>    
+    <div style="padding-right: 15px; padding-left: 15px; border-radius: 10px; padding-top: 5px; padding-bottom: 2px;">IND-8</div>    
+    <div style="padding-right: 15px; padding-left: 15px; border-radius: 10px; padding-top: 5px; padding-bottom: 2px;">IND-9</div>    
+    <div style="padding-right: 15px; padding-left: 15px; border-radius: 10px; padding-top: 5px; padding-bottom: 2px;">IND-10</div>    
+    <div style="padding-right: 15px; padding-left: 15px; border-radius: 10px; padding-top: 5px; padding-bottom: 2px;">IND-11</div>    
+
+    </div>
+    <hr style="margin-top: 10% ;">
+    <div style="display: flex; justify-content: flex-start; margin-top: 10%; ">
+        <div style="font-weight: 500; font-size: x-large;">MRP ₹4499</div>
+    </div>
+    <div>
+        <div style="display: flex; margin-top: 20px;">
+            <div style="background-color: #580a46; width: 50%; padding: 12px 5px; text-align: center; color: white; border-radius: 10px; margin-right: 2px;">Add to Cart</div>
+            <div style="background-color: #580a46; width: 50%; padding: 12px 5px; text-align: center; color: white; border-radius: 10px;">Buy Now</div>
+
+        </div>
+        <hr style="margin-top: 10%;">
+
+    </div>
+        
+    <div>
+        <div style="margin-top: 10%; font-weight: 400; font-size: large; ">Check Delivery Date:</div>
+        <div style="font-size: small; margin-top: 5%;"> Enter Delivery Pincode: </div>
+        <div style="display: flex; justify-content: space-between; margin-top: 5%;">
+            <div >221005</div>
+            <div style="color: #580a46;">Check</div>
+
+        </div>
+        <hr>
+    </div>
+    <div style="margin-top: 5%;">⛟ Enter Pincode for estimated delivery date</div>
+    <div style="margin-top: 5%;">📆 Dispatch in 2 day</div>
+</div>
+
+    <!-- <div></div> -->
+    </div>
+
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.module.js",
+          "three/examples/jsm/controls/OrbitControls.js": "https://cdn.jsdelivr.net/npm/three@0.153.0/examples/jsm/controls/OrbitControls.js",
+          "three/examples/jsm/loaders/GLTFLoader.js": "https://cdn.jsdelivr.net/npm/three@0.153.0/examples/jsm/loaders/GLTFLoader.js"
+        }
+      }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
