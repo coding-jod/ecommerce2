@@ -21,7 +21,7 @@ controls.zoomSpeed = 0.5;
 
 const loader = new GLTFLoader();
 loader.load(
-    "../assets/shoe/scene.gltf",
+    "/ecommerce2/assets/shoe/scene.gltf",
     (gltf) => {
         scene.add(gltf.scene);
         gltf.scene.position.set(0, 0, 0);
