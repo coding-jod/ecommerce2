@@ -20,8 +20,9 @@ controls.enableZoom = true;
 controls.zoomSpeed = 0.5;
 
 const loader = new GLTFLoader();
+const baseURL = 'https://coding-jod.github.io/ecommerce2/';
 loader.load(
-    "assets/shoe/scene.gltf",
+    `${baseURL}assets/shoe/scene.gltf`,
     (gltf) => {
         scene.add(gltf.scene);
         gltf.scene.position.set(0, 0, 0);
